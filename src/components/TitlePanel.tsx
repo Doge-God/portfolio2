@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 
 function TitlePanel () {
     return(
-        <div className=" h-[96vh] w-full rounded-b-4xl bg-bg-main shadow-lg-even snap-center border-b-2 border-slate-300 
+        <div className=" h-[98vh] w-full rounded-b-4xl bg-bg-main shadow-lg-even snap-center border-b-2 border-slate-300 
         flex justify-center items-center ">
             <div className=" max-w-sm lg:max-w-3xl mx-10 w-full flex flex-col">
                 <div className=" text-ui-main font-plex text-3xl font-light">I am</div>

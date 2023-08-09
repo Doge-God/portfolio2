@@ -23,4 +23,4 @@ const navSlice = createSlice({
 })
 
 export default navSlice.reducer
-export const { toggleMenu } = navSlice.actions
+export const { toggleMenu, menuOff } = navSlice.actions
