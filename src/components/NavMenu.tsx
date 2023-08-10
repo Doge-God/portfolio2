@@ -30,6 +30,7 @@ function NavMenu () {
                 <div className=" w-full flex flex-col mt-56 items-center gap-4">
                     <MenuLink to="/" text="About Me" onClick={()=>{dispatch(menuOff())}}></MenuLink>
                     <MenuLink to="/highlights" text="Highlights" onClick={()=>{dispatch(menuOff())}}></MenuLink>
+                    <MenuLink to="/contact" text="Contact Me" onClick={()=>{dispatch(menuOff())}}></MenuLink>
                 </div>
                 
             </div>

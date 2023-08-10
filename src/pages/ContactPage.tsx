@@ -3,6 +3,7 @@ import TitlePanel from "../components/TitlePanel";
 import AboutPanel from "../components/AboutPanel";
 import { motion } from "framer-motion";
 import routeVariant from "../util/AnimationVariants";
+import ContactButton from "../components/ContactButton";
 
 function ContactPage () {
     return(
@@ -11,8 +12,14 @@ function ContactPage () {
         initial="initial"
         animate="animate"
         exit="exit">
-            <TitlePanel></TitlePanel>
-            <AboutPanel></AboutPanel>
+        
+        <div className=" h-[98vh] w-full rounded-b-4xl bg-bg-main shadow-lg-even snap-center border-b-2 border-slate-300 
+        flex justify-center items-center ">
+            <div className=" max-w-sm lg:max-w-3xl mx-10 w-full columns-1">
+                <div className=" text-ui-key font-plex text-xl font-light">Let's keep in touch :)</div>
+                <div className=" text-ui-main font-plex text-3xl font-light">Futianzhou@hotmail.com</div>
+            </div>
+        </div>
         </motion.div>
     );
 }
