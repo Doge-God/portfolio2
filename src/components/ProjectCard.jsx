@@ -9,7 +9,7 @@ function ProjectCard(props) {
               shadow-lg-neu-5 rounded-2xl border-t-2 border-l-2 border-white
               flex flex-col break-inside-avoid"
               onClick={()=>window.open(props.extLink, "_blank")}>
-            <img src={props.imgSrc} className=' w-full h-64 object-cover rounded-xl shadow-inner shadow-black border-white border-r-2 border-l-2'></img>
+            <img src={props.imgSrc} className=' w-full h-64 object-cover rounded-xl shadow-inner shadow-black border-white border-r-2 border-b-2'></img>
             <div className=' mx-2 my-2 text-xl font-plex font-medium text-ui-key'>{props.title}</div>
             <div className=' text-xs mx-2 font-plex text-ui-main'>
                 {props.description}

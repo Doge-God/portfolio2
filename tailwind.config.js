@@ -13,6 +13,7 @@ module.exports = {
       boxShadow: {
         'md-even':'0 0 15px -3px rgb(0 0 0 / 0.1)',
         'lg-even':'0 0px 30px -2px rgba(0, 0, 0, 0.3)',
+        'sm-neu-5': "5px 5px 10px #d5d5d5, -5px -5px 10px #ffffff;",
         'lg-neu-5' : '5px 5px 10px #b9b9b9,-5px -5px 10px #ffffff',
         'lg-neu-5-inner': "inset 5px 5px 10px #b9b9b9, inset -5px -5px 10px #ffffff",
         'lg-neu-10' : '10px 10px 24px #b9b9b9, -10px -10px 24px #ffffff',
