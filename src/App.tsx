@@ -9,7 +9,7 @@ import RoutesWithAnimation from './components/RoutesWithAnimation';
 function App() {
   return (
     <div className="App bg-gradient-to-r from-[#99a3f5] to-[#f4cffa]">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.REACT_APP_URI}>
 
           <NavMenu/>
           <RoutesWithAnimation/>

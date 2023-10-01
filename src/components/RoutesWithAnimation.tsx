@@ -10,9 +10,9 @@ function RoutesWithAnimation () {
     return(
         <AnimatePresence>
             <Routes location={location} key={location.key}> 
-                <Route path='/' element={<HomePage/>}/>
-                <Route path='/highlights' element={<HighlightsPage/>}/>
-                <Route path='/contact' element={<ContactPage/>}/>
+                <Route path='' element={<HomePage/>}/>
+                <Route path='highlights' element={<HighlightsPage/>}/>
+                <Route path='contact' element={<ContactPage/>}/>
             </Routes>
         </AnimatePresence>
         
