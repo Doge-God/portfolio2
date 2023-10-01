@@ -1,2 +1,3 @@
 # Portfolio 2
-TODO
+## !!Work In Progress!!
+However, preview on: https://doge-god.github.io/portfolio2/
