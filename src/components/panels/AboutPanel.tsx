@@ -3,7 +3,7 @@ import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai';
 import {FaPython, FaReact, FaFigma, FaJava} from 'react-icons/fa'
 import {SiTailwindcss, SiTypescript,SiDotnet,SiCsharp} from 'react-icons/si'
 import { icons, IconType } from 'react-icons';
-import SkillBadge from "./SkillBadge";
+import SkillBadge from "../SkillBadge";
 
 const skillBadges: { icon:JSX.Element, text:string }[] = [
     {

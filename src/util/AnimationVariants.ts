@@ -2,7 +2,7 @@ import { spring } from "framer-motion";
 
 const routeVariant = {
     initial: {
-        opacity:1
+        opacity:0
     },
     animate: {
         opacity:1

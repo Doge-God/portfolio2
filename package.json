@@ -1,5 +1,6 @@
 {
-  "name": "portfolio2",
+  "homepage": "https://doge-god.github.io/portfolio2",
+  "name": "fz_portfolio2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -30,7 +31,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -52,6 +55,7 @@
   },
   "devDependencies": {
     "@types/react-redux": "^7.1.25",
+    "gh-pages": "^6.0.0",
     "tailwindcss": "^3.3.3"
   }
 }

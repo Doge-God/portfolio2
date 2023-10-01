@@ -1,6 +1,6 @@
 import React from "react";
-import TitlePanel from "../components/TitlePanel";
-import AboutPanel from "../components/AboutPanel";
+import TitlePanel from "../components/panels/TitlePanel";
+import AboutPanel from "../components/panels/AboutPanel";
 import { motion } from "framer-motion";
 import routeVariant from "../util/AnimationVariants";
 
