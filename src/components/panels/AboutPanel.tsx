@@ -50,7 +50,7 @@ function AboutPanel () {
                     and Design conjoint degree majoring in software engineering. </p>
                     <br/>
                     <p className= ' font-plex text-ui-main text-base text-md pr-3'> I like making stuff. I am passionate about product design, UI/UX and 
-                    fullstack development. I'm interested in fields IoT, mixed reality and how we might better implement them
+                    fullstack development. I'm interested in the fields of IoT, mixed reality and how we might better implement them
                     into our everyday life. </p>
                 </div>
 
